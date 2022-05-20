@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container-header {
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .top-header{
+    display: flex;
+    background-color: #0282f9;
+    color: white;
+    font-size: 6px;
+}
+
+.bottom-header{
+    display: flex;
+    width: 90%;
+    font-size: 8px;
+    color: #666;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.container-nav ul {
+    display: flex;
+    height: 100%;
+    column-gap: 10px;
+    padding: 20px 0;
+}
+
+.container-header .container-nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.container-nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+}
+
+.container-header .container-nav ul li a:hover {
+    color: #047ff7;
+    border-bottom: 3px solid #047ff7;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+.container-main-top {
+    background-image: url("/images/jumbotron.jpg");
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.label-main-top {
+    background-color: #047ff7;
+    padding: 8px 15px;
+    color: white;
+    position: absolute;
+    bottom: -20px;
+    left: 200px;
+}
+
+
+.container-main-bottom {
+    background-color: black;
+    padding-top: 30px;
+
+}
+
+.content-series {
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.main-button button {
+    color: white;
+    font-weight: bold;
+    background-color: #047ff7;
+    padding: 8px 15px;
+    margin: 20px 0;
+}
+
+
+.card {
+    width: calc(100% / 6 - 15px * 5 / 6);
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.card p {
+    color: #b5bdd1;
+    font-size: 7px;
+    padding: 10px 0;
+}
+.card a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
