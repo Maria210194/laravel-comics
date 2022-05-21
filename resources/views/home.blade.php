@@ -12,7 +12,7 @@
             <div class="content-series">
                 @foreach ($comics as $item)
                     <div class="card">
-                        <a href="singleCard">
+                        <a href="detail">
                             <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}" />
                             <p>{{ $item['title'] }}</p>
                         </a>
