@@ -126,8 +126,32 @@
     text-transform: uppercase;
 }
 
+/*  MAIN IN DETAIL  */
+
+.main-title{
+    padding: 30px;
+    color: #0282f9;
+    text-align: center;
+}
+
+.container-detail{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
 
 
 /*  FOOTER  */
+
+
+
+
+
 
 

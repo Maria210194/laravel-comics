@@ -24,6 +24,6 @@ Route::get('/detail', function () {
 
     $data = config('comics');
 
-    return view('detail' , ["comic"=>$data[0]]);
+    return view('detail' , ["comic"=>$data[7]]);
 });
 
